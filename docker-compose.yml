@@ -29,7 +29,7 @@ services:
  
   mainapp:
 
-    image: bankapp:latest
+    image: app:latest
 
     container_name: "Bankapp"
 
