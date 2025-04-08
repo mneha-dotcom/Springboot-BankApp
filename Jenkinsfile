@@ -8,7 +8,7 @@ pipeline{
         }
         stage("build"){
             steps {
-                sh "docker build -t bankapp ."
+                sh "docker build -t app ."
             }
         }
         stage("deploy"){
